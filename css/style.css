@@ -93,5 +93,55 @@ header img {
   font-size: 12px;
   color: rgb(143, 148, 144);
 }
+.review-section{
+    margin-top: 100px;
+    text-align: center;
+}
+.review-list{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
 
+.review-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.review-card .stars {
+  display: inline-flex; 
+  gap: 5px;             
+  margin-bottom: 10px;
+}
+.review-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
 
+.review-card p {
+  margin: 0 0 20px 0;
+  color: #555;
+}
+.review-card footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+.reviewer-name {
+  
+  color: #313131;
+}
+.review-card footer time {
+  
+  color: #999;
+  font-size: 14px;
+}
