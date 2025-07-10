@@ -1,0 +1,23 @@
+.hero-section{
+    background-image: url('../Assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(162, 170, 173, 0.733);
+
+}
+header{
+    padding: 40px;
+    max-width: 1400px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 200px;
+}
+
+.hovar-button{
+    background-color: rgb(53, 35, 160);
+}
