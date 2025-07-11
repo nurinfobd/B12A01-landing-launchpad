@@ -101,6 +101,9 @@ header img {
     padding: 100px 0 100px;
     text-align: center;
 }
+.review-section h2{
+  font-size: 50px;
+}
 .review-list{
     display: flex;
     gap: 20px;
@@ -209,8 +212,8 @@ header img {
 .footer-section .company-name h1{
   font-size: 60px;
   font-weight: bold;
-   margin-bottom: 0;
-   color: #830202;
+  margin-bottom: 0;
+  color: #830202;
 }
 .footer-link {
   display: flex;
@@ -218,7 +221,7 @@ header img {
   justify-content: center;
 }
 .footer-link a {
-   margin-top: 0;
+  margin-top: 0;
   text-decoration: none;
   color: rgb(143, 148, 144);
 }
