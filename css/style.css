@@ -1,5 +1,6 @@
 body {
-  font-family: 'Poppins',  sans-serif;
+    font-family: "Ancizar Sans", sans-serif;
+
   background-color: aliceblue;
 }
 main {
@@ -44,8 +45,8 @@ header img {
   text-decoration: none;
   border: none;
   color: white;
-  padding: 10px 25px;
-  font-size: 13px;
+  padding: 10px 30px;
+  font-size: 15px;
   text-align: center;
   display: inline-block;
   transition:transform 0.4s ease;
@@ -107,7 +108,7 @@ header img {
 }
 
 .review-card {
-  background: #fff;
+  background-color: rgb(245, 249, 253);
   padding: 20px;
   border-radius: 10px;
   text-align: left;
@@ -202,17 +203,22 @@ header img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 40px 20px;
-  gap: 20px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+  padding: 50px 0 50px;
 }
-
+.footer-section .company-name h1{
+  font-size: 60px;
+  font-weight: bold;
+   margin-bottom: 0;
+   color: #830202;
+}
 .footer-link {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 .footer-link a {
+   margin-top: 0;
   text-decoration: none;
   color: rgb(143, 148, 144);
 }
