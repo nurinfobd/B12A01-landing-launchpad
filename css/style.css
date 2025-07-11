@@ -41,6 +41,7 @@ header img {
   background-color: #b30909;
   border-radius: 5px;
   text-decoration: none;
+  border: none;
   color: white;
   padding: 10px 25px;
   font-size: 13px;
@@ -193,4 +194,7 @@ header img {
   font-size: 16px;
   box-sizing: border-box;
   margin-bottom: 20px;
+}
+.get-in-touch .hovar-button{
+  width: 100%;
 }
