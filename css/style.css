@@ -65,13 +65,17 @@ header img {
     padding: 100px 0 100px;
 
 }
+.action h3{
+  font-size: 40px;
+  margin: 0;
+}
 .action .right img{
     border-radius: 50px;
 }
 
 .subtitle{
     color: rgb(143, 148, 144);
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .productive-user{
