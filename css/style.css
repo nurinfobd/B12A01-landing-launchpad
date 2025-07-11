@@ -38,27 +38,28 @@ header img {
 }
 
 .hovar-button {
-    background-color: rgb(179, 9, 9);
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    padding: 10px 25px;
-    font-size: 13px;
-    text-align: center;
-    display: inline-block;
-    transition: all 0.3s ease;
+  background-color: #b30909;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  transition:transform 0.4s ease;
 }
 
-.hovar-button:hover {
-  background-color: rgb(122, 18, 18);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+.hovar-button:hover,
+.hovar-button:focus {
+  transform: translateY(0) scale(1.05);
+           
 }
+
 .action{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0 100px 0;
+    padding: 100px 0 100px;
 
 }
 .action .right img{
@@ -94,7 +95,7 @@ header img {
   color: rgb(143, 148, 144);
 }
 .review-section{
-    margin-top: 100px;
+    padding: 100px 0 100px;
     text-align: center;
 }
 .review-list{
@@ -144,4 +145,52 @@ header img {
   
   color: #999;
   font-size: 14px;
+}
+
+
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 50px;               
+  padding: 100px 0;
+  flex-wrap: wrap;         
+}
+.get-in-touch .left {
+  flex: 1;
+  font-size: 30px;
+
+}
+.get-in-touch .right {
+  flex: 1;
+  
+}
+.get-in-touch form {
+  width: 100%;
+}
+
+/* button fade korte hobe, currently hovar transition ache */
+
+.get-in-touch .right input[type="text"],
+.get-in-touch .right input[type="email"] {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.get-in-touch textarea {
+  width: 100%;
+  padding: 12px 20px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
